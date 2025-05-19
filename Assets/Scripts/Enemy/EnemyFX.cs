@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class EnemyFX : MonoBehaviour
@@ -10,7 +9,7 @@ public class EnemyFX : MonoBehaviour
 
     void Start()
     {
-        _enemy.GetComponent<Enemy>();    
+        _enemy = GetComponent<Enemy>();    
     }
 
     public void EnemyHit(Enemy enemy, float damage)
@@ -18,7 +17,23 @@ public class EnemyFX : MonoBehaviour
         Debug.Log("Enemy Hit");
         if (_enemy == enemy)
         {
-            GameObject newInstance;
+            GameObject newInstance = DamageTextManager.Instance.Pooler.GetInstanceFromPool();
+            TextMeshProUGUI damageText = newInstance.GetComponent<DamageTextManager>().DmgText;
+            damageText.text = damage.ToString();
+
+            newInstance.transform.SetParent(textDmgSpawnPosition);
+            newInstance.transform.position = textDmgSpawnPosition.position;
+            newInstance.SetActive(true);
         }
+    }
+
+    private void OnEnable()
+    {
+        Projectile.OnEnemyHit += EnemyHit;
+    }
+
+    private void OnDisable()
+    {
+        Projectile.OnEnemyHit -= EnemyHit;
     }
 }

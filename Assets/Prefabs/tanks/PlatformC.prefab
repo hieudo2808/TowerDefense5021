@@ -109,7 +109,7 @@ Transform:
   m_GameObject: {fileID: 3070841549522108027}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8, z: 0}
+  m_LocalPosition: {x: 0, y: 0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPosition: {fileID: 1612923576931335122}
   delayBtwAttacks: 1
-  damage: 5
+  damage: 1
 --- !u!114 &6525824451028254955
 MonoBehaviour:
   m_ObjectHideFlags: 0

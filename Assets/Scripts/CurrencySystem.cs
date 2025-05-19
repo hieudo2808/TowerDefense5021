@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class CurrencySystem : Singleton<CurrencySystem>
 {
-    [SerializeField] private int coin;
+    [SerializeField] private int coin = 60;
     private string CURRENCY_KEY = "CurrencyAmount";
     public int TotalCoins { get; set; }
 
     private void Start()
     {
+        TotalCoins = coin;
         PlayerPrefs.DeleteKey(CURRENCY_KEY);
     }
 

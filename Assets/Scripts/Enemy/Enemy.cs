@@ -100,5 +100,10 @@ public class Enemy : MonoBehaviour
 
     public void ResumeMovement(int speed) => moveSpeed = speed;
 
-    public void SetFirstPoint() => transform.position = waypoints.Points[0];
+    public void SetFirstPoint()
+    {
+        transform.position = waypoints.Points[0];
+        _currentWaypointIndex = 0;
+        _lastPointPosition = transform.position;
+    }
 }

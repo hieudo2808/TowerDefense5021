@@ -16,7 +16,7 @@ public class Turret : MonoBehaviour
 
     private void Start()
     {
-        this.GetComponent<CircleCollider2D>().radius = attackRange;
+        GetComponent<CircleCollider2D>().radius = attackRange;
     }
 
     void Update()

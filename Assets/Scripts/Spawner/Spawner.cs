@@ -6,8 +6,6 @@ public class Spawner : MonoBehaviour
     [Header("Settings")]
     [SerializeField]
     private int enemyCount = 10;
-    [SerializeField] 
-    private GameObject testGO;
 
     [Header("Fixed Delay")]
     [SerializeField]
@@ -15,14 +13,12 @@ public class Spawner : MonoBehaviour
 
     private float _spawnTimer;
     private int _enemiesSpawned;
-    private ObjectPooler _pooler;
+    private ObjectPooler[] _pooler;
     // Start is called before the first frame update
     void Start()
     {
-        _pooler = GetComponent<ObjectPooler>();
+        _pooler = GetComponents<ObjectPooler>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         _spawnTimer -= Time.deltaTime;
@@ -39,7 +35,7 @@ public class Spawner : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        GameObject newInstance = _pooler.GetInstanceFromPool();
+        GameObject newInstance = _pooler[UnityEngine.Random.Range(0, _pooler.Length - 1)].GetInstanceFromPool();
         newInstance.SetActive(true);
     }
 }

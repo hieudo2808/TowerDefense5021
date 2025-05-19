@@ -15,11 +15,6 @@ public class EnemyAnimations : MonoBehaviour
         _enemyHealth = GetComponent<EnemyHealth>();
     }
 
-    private void SetAnimationTrigger(string trigger)
-    {
-        _animator.SetTrigger(trigger);
-    }
-
     private float GetCurrentAnimationLength(string stateName)
     {
         RuntimeAnimatorController animatorController = _animator.runtimeAnimatorController;
@@ -42,7 +37,7 @@ public class EnemyAnimations : MonoBehaviour
         isAnimating = true;
         int temp = _enemy.MoveSpeed;
         _enemy.StopMovement();
-        SetAnimationTrigger("hurt");
+        _animator.SetTrigger("hurt");
         yield return new WaitForSeconds(GetCurrentAnimationLength("hurt") + 0.3f);
         _enemy.ResumeMovement(temp);
         isAnimating = false;
@@ -50,14 +45,15 @@ public class EnemyAnimations : MonoBehaviour
 
     private IEnumerator PlayDead()
     {
-        _animator.SetBool("isDead", true);
+        if (isAnimating) yield break;
         isAnimating = true;
         int temp = _enemy.MoveSpeed;
         _enemy.StopMovement();
-        SetAnimationTrigger("die");
-        yield return new WaitForSeconds(GetCurrentAnimationLength("die") * 1.2f);
+        _animator.Play("die", 0, 0f);
+        yield return new WaitForSeconds(GetCurrentAnimationLength("die"));
         _enemyHealth.ResetHealth();
         _enemy.ResumeMovement(temp);
+        _animator.Rebind();
         isAnimating = false;
         ObjectPooler.ReturnToPool(_enemy.gameObject);
     }
