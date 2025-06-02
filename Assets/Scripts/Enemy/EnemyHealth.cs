@@ -6,6 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public static Action<Enemy> OnEnemyKilled;
     public static Action<Enemy> OnEnemyHit;
+    public static Action<Enemy> OnEnemyFullyDestroyed;
 
     [SerializeField] private GameObject healthBarPrefab;
     [SerializeField] private Transform barPosition;

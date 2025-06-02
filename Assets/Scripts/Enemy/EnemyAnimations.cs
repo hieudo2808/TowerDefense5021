@@ -50,12 +50,16 @@ public class EnemyAnimations : MonoBehaviour
         int temp = _enemy.MoveSpeed;
         _enemy.StopMovement();
         _animator.Play("die", 0, 0f);
-        yield return new WaitForSeconds(GetCurrentAnimationLength("die"));
+        yield return new WaitForSeconds(GetCurrentAnimationLength("die"));    
+        
         _enemyHealth.ResetHealth();
         _enemy.ResumeMovement(temp);
         _animator.Rebind();
         isAnimating = false;
+
+        yield return new WaitForSeconds(0.1f);
         ObjectPooler.ReturnToPool(_enemy.gameObject);
+        EnemyHealth.OnEnemyFullyDestroyed?.Invoke(_enemy);
     }
 
     private void EnemyHit(Enemy enemy)

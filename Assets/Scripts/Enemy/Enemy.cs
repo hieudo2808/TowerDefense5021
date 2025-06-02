@@ -3,18 +3,20 @@ using System;
 
 public class Enemy : MonoBehaviour
 {
+    public static Action<Enemy> OnEndReached;
+
     [SerializeField] private int moveSpeed = 5;
     [SerializeField] private int deathCoinReward = 10;
-    [SerializeField] private Waypoint waypoints;
 
-    private int _currentWaypointIndex = 0;
+    private int _currentWaypointIndex;
     private Vector3 _lastPointPosition;
     private SpriteRenderer _spriteRenderer;
     private EnemyHealth _enemyHealth;
-    public static event Action<Enemy> OnEndReached;
+
+    public Waypoint Waypoints;
     public int DeathCoinReward => deathCoinReward;
-    public Vector3 CurrentPointPosition => waypoints.Points[_currentWaypointIndex];
-    public EnemyHealth EnemyHealth => _enemyHealth;
+    public Vector3 CurrentPointPosition => Waypoints.GetWaypointPosition(_currentWaypointIndex);
+    public EnemyHealth EnemyHealth { get; set; }
     public Transform bodyAim;
     public int MoveSpeed
     {
@@ -22,10 +24,14 @@ public class Enemy : MonoBehaviour
         private set => moveSpeed = value;
     }
 
-    private void Awake()
+    private void Start()
     {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
         _enemyHealth = GetComponent<EnemyHealth>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        EnemyHealth = GetComponent<EnemyHealth>();
+
+        _currentWaypointIndex = 0;
+        MoveSpeed = moveSpeed;
         transform.position = CurrentPointPosition;
         _lastPointPosition = transform.position;
         bodyAim = transform.Find("Body");
@@ -78,7 +84,7 @@ public class Enemy : MonoBehaviour
 
     private void UpdateCurrentPointIndex()
     {
-        int lastWaypointIndex = waypoints.Points.Length - 1;
+        int lastWaypointIndex = Waypoints.Points.Length - 1;
         if (_currentWaypointIndex < lastWaypointIndex)
         {
             _currentWaypointIndex++;
@@ -102,7 +108,7 @@ public class Enemy : MonoBehaviour
 
     public void SetFirstPoint()
     {
-        transform.position = waypoints.Points[0];
+        transform.position = Waypoints.Points[0];
         _currentWaypointIndex = 0;
         _lastPointPosition = transform.position;
     }

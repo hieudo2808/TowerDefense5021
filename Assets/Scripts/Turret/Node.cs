@@ -8,7 +8,7 @@ public class Node : MonoBehaviour
 
     [SerializeField] private GameObject attackRangeSprite;
 
-    private Turret Turret { get; set; }
+    public Turret Turret { get; set; }
     private float _rangeSize;
     private Vector3 _rangeOriginalScale;
 

@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "E:\\Unity\\Project\\Tower Defense\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\damagetextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\damagetextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|e:\\unity\\project\\tower defense\\assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|e:\\unity\\project\\tower defense\\assets\\scripts\\enemy\\enemyfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\turret\\turretprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret\\turretprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|e:\\unity\\project\\tower defense\\assets\\scripts\\turret\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\turret\\turretcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\enemy\\damagetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\damagetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\enemy\\enemyanimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyanimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\enemy\\enemyfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|e:\\unity\\project\\tower defense\\assets\\scripts\\turret\\turretcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret\\turretcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\spawner\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|E:\\Unity\\Project\\Tower Defense\\assets\\scripts\\turret\\turretprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret\\turretprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,30 +54,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DamageTextManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\DamageTextManager.cs",
-              "RelativeDocumentMoniker": "Assets\\DamageTextManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\DamageTextManager.cs",
-              "RelativeToolTip": "Assets\\DamageTextManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "TurretCard.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Turret\\TurretCard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turret\\TurretCard.cs",
+              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Turret\\TurretCard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turret\\TurretCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T15:45:53.989Z",
+              "WhenOpened": "2025-06-02T06:14:35.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Turret.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Turret\\Turret.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turret\\Turret.cs",
+              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Turret\\Turret.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turret\\Turret.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAhwBAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:10:32.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyAnimations.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\EnemyAnimations.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyAnimations.cs",
+              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\EnemyAnimations.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyAnimations.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T04:38:12.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\LevelManager.cs",
+              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\LevelManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T02:43:38.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Managers\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\UIManager.cs",
+              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Managers\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\UIManager.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAtwH0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T02:16:49.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DamageText.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\DamageText.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\DamageText.cs",
+              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\DamageText.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\DamageText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:45:33.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EnemyFX.cs",
               "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\EnemyFX.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyFX.cs",
               "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\EnemyFX.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyFX.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T16:03:44.125Z",
               "EditorCaption": ""
@@ -65,51 +154,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:37:39.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
               "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
               "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAADwvwYAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwHIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T15:38:34.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnemyHealth.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
-              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowAYAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Spawner\\Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\Spawner.cs",
+              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Spawner\\Spawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Spawner\\Spawner.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAWwDkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:37:39.346Z"
+              "WhenOpened": "2025-06-02T02:16:14.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "TurretProjectile.cs",
               "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Turret\\TurretProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Turret\\TurretProjectile.cs",
               "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Turret\\TurretProjectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\Turret\\TurretProjectile.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T14:42:20.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TurretCard.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Turret\\TurretCard.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Turret\\TurretCard.cs",
-              "ToolTip": "E:\\Unity\\Project\\Tower Defense\\Assets\\Scripts\\Turret\\TurretCard.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Turret\\TurretCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:05:53.874Z"
             }
           ]
         }

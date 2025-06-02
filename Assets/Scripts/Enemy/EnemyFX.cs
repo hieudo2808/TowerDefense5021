@@ -10,19 +10,16 @@ public class EnemyFX : MonoBehaviour
     void Start()
     {
         _enemy = GetComponent<Enemy>();    
-    }
-
-    public void EnemyHit(Enemy enemy, float damage)
+    }    public void EnemyHit(Enemy enemy, float damage)
     {
-        Debug.Log("Enemy Hit");
         if (_enemy == enemy)
         {
             GameObject newInstance = DamageTextManager.Instance.Pooler.GetInstanceFromPool();
-            TextMeshProUGUI damageText = newInstance.GetComponent<DamageTextManager>().DmgText;
+            TextMeshProUGUI damageText = newInstance.GetComponent<DamageText>().DmgText;
             damageText.text = damage.ToString();
 
-            newInstance.transform.SetParent(textDmgSpawnPosition);
             newInstance.transform.position = textDmgSpawnPosition.position;
+            newInstance.transform.SetParent(null); 
             newInstance.SetActive(true);
         }
     }

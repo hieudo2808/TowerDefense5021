@@ -12,11 +12,12 @@ public class Waypoint : MonoBehaviour
     {
         _gameStart = true;
         _currentPosition = transform.position;
+        _currentPosition.z = 0;
     }
 
     public Vector3 GetWaypointPosition(int index)
     {
-        return _currentPosition + points[index];
+        return CurrentPosition + Points[index];
     }
 
     private void OnDrawGizmos()

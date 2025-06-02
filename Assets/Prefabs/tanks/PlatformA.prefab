@@ -421,6 +421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemies: []
   CurrentEnemyTarget: {fileID: 0}
+  _turretCost: 50
 --- !u!58 &6519104249798320819
 CircleCollider2D:
   m_ObjectHideFlags: 0

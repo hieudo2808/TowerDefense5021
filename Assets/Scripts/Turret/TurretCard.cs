@@ -29,5 +29,5 @@ public class TurretCard : MonoBehaviour
             UIManager.Instance.CloseTurretShopPanel();
             OnPlaceTurret?.Invoke(TurretLoaded);
         }
-    }
+    }    
 }

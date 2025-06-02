@@ -13,6 +13,8 @@ public class Turret : MonoBehaviour
     public bool IsAimed => CurrentAngleToTarget <= 0.1f;
 
     public int AttackRange => attackRange;
+    [SerializeField] private int _turretCost;
+    public int TurretCost => _turretCost;
 
     private void Start()
     {
