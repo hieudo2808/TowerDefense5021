@@ -5,7 +5,7 @@ public class Turret : MonoBehaviour
 {
     [SerializeField]
     private List<Enemy> _enemies = new List<Enemy>();
-    private int attackRange = 2;
+    private int attackRange = 3;
 
     public Enemy CurrentEnemyTarget;
     private float rotationSpeed = 100f;
